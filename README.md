@@ -1,8 +1,207 @@
 # pz9
-![Скриншот 19-03-2026 135440](https://github.com/user-attachments/assets/37c13e90-27ea-44cf-a149-83a269d63650)
-![Скриншот 19-03-2026 135427](https://github.com/user-attachments/assets/ce94e4da-ed3a-43a9-b21a-24ebe00f774f)
-![Скриншот 19-03-2026 135419](https://github.com/user-attachments/assets/91654d39-67a4-483d-9cd4-f30112d66b38)
-![Скриншот 19-03-2026 135450](https://github.com/user-attachments/assets/87290422-ac23-43f3-887d-03479af307dc)
-![Скриншот 19-03-2026 135412](https://github.com/user-attachments/assets/193753bb-76a1-4bc1-a037-c3a7112f9493)
-![Скриншот 19-03-2026 135401](https://github.com/user-attachments/assets/5c6e386f-8f3f-42a8-8ed4-9a9cfee44812)
-![Скриншот 19-03-2026 135350](https://github.com/user-attachments/assets/dd7c7f91-a680-4410-9117-74ba0337d954)
+Ex1
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+
+    int n;
+    cin >> n;
+    switch (n) {
+    case 1: cout << " Один"; break;
+    case 2: cout << "Два"; break;
+    case 3: cout << "Три"; break;
+    default: cout << "Ошибка"; 
+}
+
+    // Ваш код:
+
+
+    return 0;
+}
+```
+Ex2
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+
+    int n;
+    cin >> n;
+    switch (n) {
+    case 1: cout << "Понедельник"; break;
+    case 2: cout << "Вторник"; break;
+    case 3: cout << "Среда"; break;
+    case 4: cout << "Четверг"; break;
+    case 5: cout << "Пятница"; break;
+    case 6: cout << "Суббота"; break;
+    case 7: cout << "Воскресенье"; break;        
+    default: cout << "Неверный день"; 
+}
+    
+
+    // Ваш код:
+
+
+    return 0;
+}
+```
+Ex3
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+
+    int n;
+    cin >> n;
+    switch (n) {
+    case 1: cout << "Зима"; break;
+    case 2: cout << "Зима"; break;
+    case 3: cout << "Зима"; break;
+    case 4: cout << "Весна"; break;
+    case 5: cout << "Весна"; break;
+    case 6: cout << "Весна"; break;
+    case 7: cout << "Лето"; break;
+    case 8: cout << "Лето"; break;
+    case 9: cout << "Лето"; break;
+    case 10: cout << "Осень"; break;
+    case 11: cout << "Осень"; break;
+    case 12: cout << "Осень"; break;
+        
+    default: cout << "Ошибка"; 
+}
+
+
+    // Ваш код:
+
+
+    return 0;
+}
+```
+Ex4
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+
+    char op;
+    int a, b;
+    cin >> op >> a >> b;
+
+    if (op == '+') {
+        cout << a + b;
+    } else if (op == '-') {
+        cout << a - b;
+    } else if (op == '*') {
+        cout << a * b;
+    } else if (op == '/') {
+        if (b == 0) {
+            cout << "Деление на ноль";
+        } else {
+            cout << a / b;
+        }
+    } else {
+        cout << "Ошибка";
+    }
+
+    return 0;
+}
+
+```
+Ex5
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+
+    int n;
+    cin >> n;
+    switch (n) {
+    case 1: cout << "Плохо"; break;
+    case 2: cout << "Плохо"; break;
+    case 3: cout << "Удовлетворительно"; break;
+    case 4: cout << "Хорошо"; break;
+    case 5: cout << "Отлично"; break;        
+    default: cout << "Ошибка"; 
+}
+
+    // Ваш код:
+
+
+    return 0;
+}
+```
+Ex6
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+
+    int n;
+    cin >> n;
+    switch (n) {
+    case 0: cout << "Ноль"; break;        
+    case 1: cout << "Один"; break;
+    case 2: cout << "Два"; break;
+    case 3: cout << "Три"; break;
+    case 4: cout << "Четыре"; break;
+    case 5: cout << "Пять"; break;
+    case 6: cout << "Шесть"; break;
+    case 7: cout << "Семь"; break;
+    case 8: cout << "Восемь"; break;
+    case 9: cout << "Девять"; break;
+    
+    default: cout << "Ошибка"; 
+}
+
+
+    // Ваш код:
+
+
+    return 0;
+}
+```
+Ex7
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+
+    int a, b;
+    int op;
+    cin >> a >> b >> op;
+
+    if (op == 1) {
+        cout << a + b;
+    } else if (op == 2) {
+        cout << a - b;
+    } else if (op == 3) {
+        cout << a * b;
+    } else if (op == 4) {
+        if (b == 0) {
+            cout << "Деление на ноль";
+        } else {
+            cout << a / b;
+        }
+    } else {
+        cout << "Ошибка";
+    }
+
+    return 0;
+}
+
+```
