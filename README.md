@@ -1,5 +1,5 @@
 # pz9
-<img width="1036" height="352" alt="image" src="https://github.com/user-attachments/assets/67b0dd7c-9b3d-4fe7-985e-37f9a47851a8" />
+<img width="1036" height="352" alt="image" src="https://github.com/user-attachments/assets/a9ecee9d-b497-4bba-a8c6-9b5e6ec331eb" />
 
 Ex1
 ```
